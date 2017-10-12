@@ -1,0 +1,21 @@
+@import 'styles/variables';
+@import 'styles/colors';
+@import 'styles/header';
+@import 'styles/block';
+@import 'styles/footer';
+
+html {
+  font-size: 10px;
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background-color;
+  min-width: $min-screen-width;
+  // sass-lint:disable no-vendor-prefixes
+  -webkit-font-smoothing: antialiased;
+  // scss-lint:enable no-vendor-prefixes
+}
